@@ -1,0 +1,74 @@
+maze_width 30
+maze_height 30
+obstacle_probability 0.15
+banana_probability 0.25
+min_bananas_per_cell 1
+max_bananas_per_cell 5
+
+num_families 4
+babies_per_family 3
+
+female_target_bananas 15
+female_initial_energy 200
+female_energy_per_step 1
+female_energy_per_fight 10
+female_rest_threshold 30
+female_rest_duration_ms 300
+female_move_delay_ms 150
+female_exit_fight_probability 0.05
+
+male_initial_energy 500
+male_energy_per_guard_cycle 1
+male_energy_per_fight 5
+male_fight_base_probability 0.08
+male_fight_probability_increment 0.02
+male_fight_check_delay_ms 500
+male_guard_delay_ms 300
+
+baby_steal_probability 0.3
+baby_eat_probability 0.5
+baby_fight_participation_distance 5
+max_babies_per_fight 4
+
+simulation_max_time_seconds 300
+withdrawn_families_threshold 2
+family_basket_threshold 150
+baby_eaten_threshold 15
+
+window_width 800
+window_height 800
+cell_size 25
+update_interval_ms 50
+
+color_background_r 0.95
+color_background_g 0.95
+color_background_b 0.95
+
+color_obstacle_r 0.2
+color_obstacle_g 0.2
+color_obstacle_b 0.2
+
+color_banana_r 1.0
+color_banana_g 0.9
+color_banana_b 0.0
+
+color_female_r 1.0
+color_female_g 0.4
+color_female_b 0.6
+
+color_male_r 0.3
+color_male_g 0.5
+color_male_b 0.9
+
+color_baby_r 0.6
+color_baby_g 0.9
+color_baby_b 0.4
+
+color_basket_r 0.7
+color_basket_g 0.4
+color_basket_b 0.2
+
+color_grid_r 0.7
+color_grid_g 0.7
+color_grid_b 0.7
+color_grid_b 0.7
